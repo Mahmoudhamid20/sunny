@@ -6,12 +6,33 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <title>Contact us</title>
 </head>
 <body>
     <header></header>
     <main>
-
+        <form>
+            <div class="input-block" id="block-fname">
+                <label for="Name">First Name</label>
+                <input type="text" name="Name" id="Name">
+            </div>
+            <div class="input-block">
+                <label for="Surname">Last Name</label>
+                <input type="text" name="Surname" id="Surname">
+            </div>
+            <div class="input-block" id="block-email">
+                <label for="Email">Email</label>
+                <input type="text" name="Email" id="Email">
+            </div>
+            <div class="input-block" id="block-message">
+                <label for="Message">Your Question</label>
+                <textarea name="Message" rows="3" id="Message"></textarea>
+            </div>
+            <div class="input-block" id="submit">
+                <button id="btn-submit">Submit</button>
+            </div>
+        </form>
     </main>
     <footer></footer>
 </body>

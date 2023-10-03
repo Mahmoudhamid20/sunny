@@ -1,0 +1,40 @@
+form {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+}
+.input-block input, .input-block textarea, #btn-submit{
+    border: 3px solid #4FB2A2;
+    font-family: 'NexaLight', Arial, sans-serif;
+    font-size: 1rem;
+    padding: 0.2rem;
+    width: 100%;
+}
+
+#block-fname {
+    grid-column-start: 3;
+}
+
+#block-email {
+    grid-column: 3 / span 2;
+}
+
+#block-message {
+    grid-column: 3 / span 2;
+}
+#submit {
+    grid-row: 4;
+    grid-column: 4;
+}
+#btn-submit {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    transition: 0.4s;
+    font-family: 'NexaBold', Arial, sans-serif;
+}
+
+#btn-submit:hover{
+    background-color: #4FB2A2;
+    cursor: pointer;
+}
