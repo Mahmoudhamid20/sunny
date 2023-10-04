@@ -13,7 +13,7 @@
 <body>
     <header></header>
     <main>
-        <form name="contact" action="api/form.php" onsubmit="return validateForm()" method="post">
+        <form name="contact" action="api/form.php" method="post">
             <div id="warning-block">
                 <ul>
                     <li class="warning-text" id="warning-Name"><p>The field "First Name" cannot be empty!</p></li>
@@ -39,8 +39,8 @@
                 <label for="Message">Your Question</label>
                 <textarea name="Message" rows="3" id="Message" class="field"></textarea>
             </div>
-            <div class="input-block" id="submit">
-                <button id="btn-submit">Submit</button>
+            <div class="input-block" id="submit-block">
+                <input type="submit" id="btn-submit" value="Send">
             </div>
         </form>
     </main>
