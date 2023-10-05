@@ -1,0 +1,53 @@
+@font-face {
+    font-family:        nexalight;
+    src:url("./fonts/nexalight.ttf");
+}
+
+@font-face {
+    font-family:        nexabold;
+    src:url("./fonts/nexabold.ttf");
+}
+
+.float-font{
+    font-family:        nexabold;
+    font-size:          40px;
+}
+
+.title{
+    font-family:        nexalight;
+}
+
+.container{
+    display:            flex;
+    justify-content:    center;
+}
+
+.pics_container{
+    display:            inline-block;
+    margin:             100px;
+    text-align:         center;
+}
+
+.Pics{
+    width:              400px;
+    height:             266.7px;
+    transition:         .5s ease;
+}
+.hover{
+    transition:         .5s ease;
+    opacity:            0;
+}
+
+.pics_container:hover .Pics {
+    opacity:            0.3;
+}
+
+.pics_container:hover .hover {
+    opacity:            1;
+}
+
+.SpaceTaker{
+    width:              400px;
+    height:             266.7px;
+    background-color: white;
+}
