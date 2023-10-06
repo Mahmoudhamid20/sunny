@@ -4,15 +4,13 @@
 }
 
 @font-face {
-    font-family: "NexaBold";
-    src: url("fonts/nexaBold.woff") format("woff"),
-    url("fonts/nexaBold.woff2") format("woff2")
+    font-family:        NexaLight;
+    src:url("./fonts/nexalight.ttf");
 }
 
 @font-face {
-    font-family: "NexaLight";
-    src: url("fonts/nexaLight.woff") format("woff"),
-    url("fonts/nexaLight.woff2") format("woff2")
+    font-family:        NexaBold;
+    src:url("./fonts/nexabold.ttf");
 }
 
 body {

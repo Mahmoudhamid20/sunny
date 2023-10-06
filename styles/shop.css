@@ -1,20 +1,20 @@
 @font-face {
-    font-family:        nexalight;
+    font-family:        NexaLight;
     src:url("./fonts/nexalight.ttf");
 }
 
 @font-face {
-    font-family:        nexabold;
+    font-family:        NexaBold;
     src:url("./fonts/nexabold.ttf");
 }
 
 .float-font{
-    font-family:        nexabold;
+    font-family:        NexaBold;
     font-size:          40px;
 }
 
 .title{
-    font-family:        nexalight;
+    font-family:        NexaLight;
 }
 
 .container{
