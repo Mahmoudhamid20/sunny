@@ -1,0 +1,31 @@
+@font-face {
+    font-family:        NexaLight;
+    src:url("./fonts/nexalight.ttf");
+}
+
+@font-face {
+    font-family:        NexaBold;
+    src:url("./fonts/nexabold.ttf");
+}
+h1{
+    font-family: NexaBold;
+    font-size: 5dvh;
+    text-align: center;
+}
+
+.newCollection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.newCollection img{
+    height: 60dvh;
+}
+
+.hover:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: transform .2s;
+}
