@@ -7,10 +7,24 @@
     font-family:        NexaBold;
     src:url("./fonts/nexabold.ttf");
 }
+
 h1{
     font-family: NexaBold;
     font-size: 5dvh;
     text-align: center;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: NexaBold;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h3{
+    font-family: NexaLight;
+    text-align: center;
+    font-size: 1.7rem;
 }
 
 .newCollection{
@@ -28,4 +42,17 @@ h1{
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     transition: transform .2s;
+}
+
+.greenBoxes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    width: fit-content;
+    background-color:#51b2a2;
+    transition: transform .8s;
+}
+.greenBoxes:hover{
+    background-color:#3BCFAB;
 }
