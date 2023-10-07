@@ -19,12 +19,14 @@ h2{
     font-family: NexaBold;
     text-align: center;
     font-size: 2rem;
+    padding-bottom: 0;
 }
 
 h3{
     font-family: NexaLight;
     text-align: center;
     font-size: 1.7rem;
+    padding-top: 0;
 }
 
 .sockImages{
