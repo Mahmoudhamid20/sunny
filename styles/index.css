@@ -27,13 +27,13 @@ h3{
     font-size: 1.7rem;
 }
 
-.newCollection{
+.sockImages{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.newCollection img{
+.sockImages img{
     height: 60dvh;
 }
 
@@ -53,6 +53,7 @@ h3{
     background-color:#51b2a2;
     transition: transform .8s;
 }
+
 .greenBoxes:hover{
     background-color:#3BCFAB;
 }
