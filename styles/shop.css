@@ -7,12 +7,6 @@
     font-family:        NexaBold;
     src:url("./fonts/nexabold.ttf");
 }
-
-.float-font{
-    font-family:        NexaBold;
-    font-size:          40px;
-}
-
 .title{
     font-family:        NexaLight;
 }
@@ -33,10 +27,6 @@
     height:             266.7px;
     transition:         .5s ease;
 }
-.hover{
-    transition:         .5s ease;
-    opacity:            0;
-}
 
 .pics_container:hover .Pics {
     opacity:            0.3;
@@ -50,4 +40,17 @@
     width:              400px;
     height:             266.7px;
     background-color: white;
+}
+
+.hover{
+    text-align: center;
+    transition:         .5s ease;
+    opacity:            0;
+}
+
+h2{
+    font-family:        NexaBold;
+    font-size:          40px;
+    position:absolute;
+    text-align: center;
 }
