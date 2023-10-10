@@ -32,6 +32,8 @@ form {
 
 #block-message {
     grid-column: 3 / span 2;
+    min-height: 1rem;
+    min-width: 100%;
 }
 #submit-block {
     grid-row: 5;
