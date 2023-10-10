@@ -8,9 +8,22 @@
     src: url("./fonts/nexabold.ttf");
 }
 
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .title {
-    /*Title font*/
-    font-family: NexaLight;
+    font-size: 60px;
+    font-family: NexaBold;
+    color: white;
+    text-align: center;
+    background-color: #4FB2A2;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .container {
@@ -55,6 +68,11 @@
     text-align: center;
     transition: .5s ease;
     opacity: 0;
+}
+
+h1 {
+    /*Sets the H1's style*/
+    font-family: NexaLight;
 }
 
 h2 {
