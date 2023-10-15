@@ -3,7 +3,8 @@ form {
     grid-template-columns: repeat(6, 1fr);
     gap: 2rem;
 }
-.input-block input, .input-block textarea, #btn-submit{
+
+.input-block input, .input-block textarea, #btn-submit {
     font-family: 'NexaLight', Arial, sans-serif;
     font-size: 1rem;
     padding: 0.2rem;
@@ -14,7 +15,7 @@ form {
     border: 3px solid #4FB2A2;
 }
 
-.warning-field{
+.warning-field {
     border: 3px solid red;
 }
 
@@ -22,7 +23,7 @@ form {
     grid-column-start: 3;
 }
 
-#warning-block{
+#warning-block {
     grid-column: 3 / span 2;
 }
 
@@ -35,10 +36,12 @@ form {
     min-height: 1rem;
     min-width: 100%;
 }
+
 #submit-block {
     grid-row: 5;
     grid-column: 4;
 }
+
 #btn-submit {
     border: 3px solid #4FB2A2;
     display: block;
@@ -48,7 +51,7 @@ form {
     font-family: 'NexaBold', Arial, sans-serif;
 }
 
-#btn-submit:hover{
+#btn-submit:hover {
     background-color: #4FB2A2;
     cursor: pointer;
 }

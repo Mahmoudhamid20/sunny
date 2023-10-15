@@ -11,40 +11,40 @@
     <script src="scripts/jquery-3.7.1.min.js"></script>
 </head>
 <body>
-    <header></header>
-    <main>
-        <form name="contact" action="api/form.php" method="post">
-            <div id="warning-block">
-                <ul>
-                    <li class="warning-text" id="warning-Name"><p>The field "First Name" cannot be empty!</p></li>
-                    <li class="warning-text" id="warning-Surname"><p>The field "Lirst Name" cannot be empty!</p></li>
-                    <li class="warning-text" id="warning-Email"><p>Email must be specified</p></li>
-                    <li class="warning-text" id="warning-Message"><p>The field "Question" cannot be empty!</p></li>
-                </ul>
+<header></header>
+<main>
+    <form name="contact" action="api/form.php" method="post">
+        <div id="warning-block">
+            <ul>
+                <li class="warning-text" id="warning-Name"><p>The field "First Name" cannot be empty!</p></li>
+                <li class="warning-text" id="warning-Surname"><p>The field "Lirst Name" cannot be empty!</p></li>
+                <li class="warning-text" id="warning-Email"><p>Email must be specified</p></li>
+                <li class="warning-text" id="warning-Message"><p>The field "Question" cannot be empty!</p></li>
+            </ul>
 
-            </div>
-            <div class="input-block" id="block-fname">
-                <label for="Name">First Name</label>
-                <input type="text" name="Name" id="Name" class="field">
-            </div>
-            <div class="input-block">
-                <label for="Surname">Last Name</label>
-                <input type="text" name="Surname" id="Surname" class="field">
-            </div>
-            <div class="input-block" id="block-email">
-                <label for="Email">Email</label>
-                <input type="text" name="Email" id="Email" class="field">
-            </div>
-            <div class="input-block" id="block-message">
-                <label for="Message">Your Question</label>
-                <textarea name="Message" rows="3" id="Message" class="field"></textarea>
-            </div>
-            <div class="input-block" id="submit-block">
-                <input type="submit" id="btn-submit" value="Send">
-            </div>
-        </form>
-    </main>
-    <footer></footer>
-    <script src="scripts/form.js"></script>
+        </div>
+        <div class="input-block" id="block-fname">
+            <label for="Name">First Name</label>
+            <input type="text" name="Name" id="Name" class="field">
+        </div>
+        <div class="input-block">
+            <label for="Surname">Last Name</label>
+            <input type="text" name="Surname" id="Surname" class="field">
+        </div>
+        <div class="input-block" id="block-email">
+            <label for="Email">Email</label>
+            <input type="text" name="Email" id="Email" class="field">
+        </div>
+        <div class="input-block" id="block-message">
+            <label for="Message">Your Question</label>
+            <textarea name="Message" rows="3" id="Message" class="field"></textarea>
+        </div>
+        <div class="input-block" id="submit-block">
+            <input type="submit" id="btn-submit" value="Send">
+        </div>
+    </form>
+</main>
+<footer></footer>
+<script src="scripts/form.js"></script>
 </body>
 </html>

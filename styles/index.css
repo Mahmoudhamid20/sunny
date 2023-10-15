@@ -1,65 +1,66 @@
 @font-face {
-    font-family:        NexaLight;
-    src:url("./fonts/nexalight.ttf");
+    font-family: NexaLight;
+    src: url("./fonts/nexalight.ttf");
 }
 
 @font-face {
-    font-family:        NexaBold;
-    src:url("./fonts/nexabold.ttf");
+    font-family: NexaBold;
+    src: url("./fonts/nexabold.ttf");
 }
 
-h1{
-    font-family: NexaBold;
-    font-size: 5dvh;
+h1 {
+    font-family: NexaBold, sans-serif;
+    font-size: 5vh;
     text-align: center;
     font-size: 3rem;
 }
 
-h2{
-    font-family: NexaBold;
+h2 {
+    font-family: NexaBold, sans-serif;
     text-align: center;
     font-size: 2rem;
     padding-bottom: 0;
 }
 
-h3{
-    font-family: NexaLight;
+h3 {
+    font-family: NexaLight, sans-serif;
     text-align: center;
     font-size: 1.7rem;
     padding-top: 0;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
 
-.sockImages{
+.sockImages {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.sockImages img{
-    height: 60dvh;
+.sockImages img {
+    height: 60vh;
 }
 
-.hover:hover{
+.hover:hover {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     transition: transform .2s;
 }
 
-.greenBoxes{
+.greenBoxes {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: fit-content;
     width: fit-content;
-    background-color:#51b2a2;
+    background-color: #51b2a2;
     transition: transform .8s;
 }
 
-.greenBoxes:hover{
-    background-color:#3BCFAB;
+.greenBoxes:hover {
+    background-color: #3BCFAB;
 }
