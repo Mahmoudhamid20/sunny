@@ -58,5 +58,12 @@ form {
 
 .warning-text {
     color: red;
-    display: none;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+.centered{
+    text-align: center;
 }
