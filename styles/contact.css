@@ -67,3 +67,7 @@ main {
 .centered{
     text-align: center;
 }
+
+textarea {
+    resize: none;
+}
