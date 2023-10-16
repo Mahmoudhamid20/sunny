@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <div class="input-block" id="block-message">
                 <label for="Message">Your Question</label>
-                <textarea name="Message" rows="3" id="Message" class="field"><?php echo isset($values["Name"]) ? $values["Name"] : "";?></textarea>
+                <textarea name="Message" rows="5" id="Message" class="field"><?php echo isset($values["Name"]) ? $values["Name"] : "";?></textarea>
             </div>
             <div class="input-block" id="submit-block">
                 <input type="submit" id="btn-submit" value="Send">
