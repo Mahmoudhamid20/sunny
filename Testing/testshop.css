@@ -1,0 +1,60 @@
+@font-face {
+    font-family: NexaLight;
+    src: url("./fonts/nexalight.ttf");
+}
+
+@font-face {
+    font-family: NexaBold;
+    src: url("./fonts/nexabold.ttf");
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.purchasePage{
+    display: flex;
+    flex-direction: column;
+}
+
+.purchaseImage{
+    display:flex;
+    height: 50dvh;
+    margin-right: 60px;
+}
+
+.boxes{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+}
+
+.icons{
+    height: 60px;
+    padding: 10px;
+}
+
+/* Dropdown tab css  */
+input, ul{
+    display: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+label{
+    font-family: NexaBold, sans-serif;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+input:checked~ul{
+    display: block;
+}
