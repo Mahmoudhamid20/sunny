@@ -1,13 +1,21 @@
-@font-face {
+*{
     font-family: NexaLight;
-    src: url("./fonts/nexalight.ttf");
 }
-
 @font-face {
     font-family: NexaBold;
-    src: url("./fonts/nexabold.ttf");
+    src: url("../styles/fonts/nexabold.ttf");
 }
 
+@font-face {
+    font-family: NexaLight;
+    src: url("../styles/fonts/nexalight.ttf");
+}
+h1{
+    font-family: NexaBold;
+}
+h2{
+    font-family: NexaLight;
+}
 
 
 .container{
@@ -37,24 +45,16 @@
     height: 60px;
     padding: 10px;
 }
-
-/* Dropdown tab css  */
-input, ul{
-    display: none;
+/* dropdown size menu css */
+option:hover{
+    background-color: #4FB2A2;
+    font-weight: bold;
 }
 
-li{
-    list-style-type: none;
-}
-
-label{
-    font-family: NexaBold, sans-serif;
-    position: relative;
-    display: block;
-    cursor: pointer;
-    font-size: x-large;
-}
-
-input:checked~ul{
-    display: block;
+select{
+overflow-y: auto;
+width: 20dvw;
+border:none;
+text-align: center;
+font-size: large;
 }

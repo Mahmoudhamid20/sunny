@@ -24,41 +24,31 @@
             <div class="headings">
                 <h2>Sizes</h2>
             </div>
-
-
             <!-- dropmenu code -->
-        <form action="">
-
-            <input id="size" type="checkbox" name="size" >
-            <label for="size" class="test" >Select your size</label>
+        
+            <select name="size-drop" id="size-drop" class="dropmenu" onfocus='this.size=6;' onblur='this.size=0;' onchange='this.size=1; this.blur();'>
+                <option value="select" selected disabled>Select your Size</option>
+                <option value="30-32">30-32</option>
+                <option value="33-35">33-35</option>
+                <option value="36-38" disabled>36-38</option>
+                <option value="39-41">39-41</option>
+                <option value="42-44">42-44</option>
+            </select>
             
-            <ul class="dropmenu">
-                <li><input name="size" value="30-32" type="radio" id="30-32">30-32</li>
-
-                <li><input name="size" value="33-35" type="radio" id="33-35">33-35</li>
-
-                <li><input name="size" value="36-38" type="radio" id="36-38">36-38</li>
-
-                <li><input name="size" value="39-41" type="radio" id="39-41">39-41</li>
-
-                <li><input name="size" value="42-44" type="radio" id="42-44">42-44</li>
-            </ul>
-        </form>
 
             <div class="headings">
                 <h2>Colour</h2>
             </div>
-
             <div class="boxes">
-                <img src="./jpeg/Sunny_socks_Blue.jpg" alt="sunny socks blue" class="icons">
+                <img src="../img/sunny_illustrations/jpeg/Sunny_socks_Blue.jpg" alt="sunny socks blue" class="icons">
 
-                <img src="./jpeg/Sunny_socks_Green.jpg" alt="sunny socks blue" class="icons">
+                <img src="../img/sunny_illustrations/jpeg/Sunny_socks_Green.jpg" alt="sunny socks blue" class="icons">
 
-                <img src="./jpeg/Sunny_socks_Orange.jpg" alt="sunny socks orange" class="icons">
+                <img src="../img/sunny_illustrations/jpeg/Sunny_socks_Orange.jpg" alt="sunny socks orange" class="icons">
 
-                <img src="./jpeg/Sunny_socks_Pink.jpg" alt="sunny socks pink" class="icons">
+                <img src="../img/sunny_illustrations/jpeg/Sunny_socks_Pink.jpg" alt="sunny socks pink" class="icons">
 
-                <img src="./jpeg/Sunny_socks_Yellow.jpg" alt="sunny socks yellow" class="icons">
+                <img src="../img/sunny_illustrations/jpeg/Sunny_socks_Yellow.jpg" alt="sunny socks yellow" class="icons">
             </div>
 
         </div>
