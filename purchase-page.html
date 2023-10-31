@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/purchase-page.css">
+    <title>Purchase Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="purchaseImage">
+            <img src="./img/sunny_socks_photos/catalogus/Sunny_socks_blue.jpg" alt="Blue socks">
+        </div>
+
+        <div class="purchasePage">
+            <div class="sockTitle">
+                <h1>Stripped sock in Blue</h1>
+            </div>
+
+            <div class="description">
+                <h2>Our classic Stripped Socks in Blue!</h2>
+            </div>
+
+            <div class="headings">
+                <h2>Sizes</h2>
+            </div>
+            <!-- dropmenu code -->
+        
+            <select name="size-drop" id="size-drop" class="dropmenu" onfocus='this.size=6;' onblur='this.size=0;' onchange='this.size=1; this.blur();'>
+                <option value="select" selected disabled>Select your Size</option>
+                <option value="30-32">30-32</option>
+                <option value="33-35">33-35</option>
+                <option value="36-38" disabled>36-38</option>
+                <option value="39-41">39-41</option>
+                <option value="42-44">42-44</option>
+            </select>
+            
+
+            <div class="headings">
+                <h2>Colour</h2>
+            </div>
+            <div class="boxes">
+                <img src="./img/sunny_illustrations/jpeg/Sunny_socks_Blue.jpg" alt="sunny socks blue" class="icons">
+
+                <img src="./img/sunny_illustrations/jpeg/Sunny_socks_Green.jpg" alt="sunny socks blue" class="icons">
+
+                <img src="./img/sunny_illustrations/jpeg/Sunny_socks_Orange.jpg" alt="sunny socks orange" class="icons">
+
+                <img src="./img/sunny_illustrations/jpeg/Sunny_socks_Pink.jpg" alt="sunny socks pink" class="icons">
+
+                <img src="./img/sunny_illustrations/jpeg/Sunny_socks_Yellow.jpg" alt="sunny socks yellow" class="icons">
+            </div>
+
+             <!-- <input type="radio" name="colour" id="blue"/>
+             <label for="blue"><span class="blue"></span></label>
+
+            <input type="radio" name="colour" id="green">
+            <label for="green"><span class="green"></span></label> 
+
+            <input type="radio" name="colour" id="orange">
+            <label for="orange"><span class="orange"></span></label>
+
+            <input type="radio" name="colour" id="pink">
+            <label for="pink"><span class="pink"></span></label>
+
+            <input type="radio" name="colour" id="yellow">
+            <label for="yellow"><span class="yellow"></span></label> -->
+
+        </div>
+    </div>
+
+
+</body>
+</html>
