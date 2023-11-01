@@ -49,6 +49,7 @@
 .pics_container:hover .Pics {
     /*Change the Opacity to 30% when hovering on the img*/
     opacity: 0.3;
+    cursor: pointer;
 }
 
 .pics_container:hover .hover {

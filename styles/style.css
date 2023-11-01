@@ -15,6 +15,9 @@
 
 body {
     font-family: 'NexaBold', Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -67,10 +70,10 @@ footer {
     font-size: large;
     align-items: flex-end;
     overflow: hidden;
-
+    margin-top:5%;
     gap: 20px;
     background-image: url(../img/footer/socks.jpeg);
-
+    margin-top: auto;
 
 }
 
