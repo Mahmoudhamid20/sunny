@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 form {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    padding-inline: 10%;
 }
 
 .input-block input, .input-block textarea, #btn-submit {
@@ -20,26 +25,29 @@ form {
 }
 
 #block-fname {
-    grid-column-start: 3;
+    grid-column: 1 / span 3;
+}
+
+#block-lname {
+    grid-column: 1 / span 3;
 }
 
 #warning-block {
-    grid-column: 3 / span 2;
+    grid-column: 1 / span 3;
 }
 
 #block-email {
-    grid-column: 3 / span 2;
+    grid-column: 1 / span 3;
 }
 
 #block-message {
-    grid-column: 3 / span 2;
+    grid-column: 1 / span 3;
     min-height: 1rem;
     min-width: 100%;
 }
 
 #submit-block {
-    grid-row: 5;
-    grid-column: 4;
+    grid-column: 2 / span2;
 }
 
 #btn-submit {
@@ -75,3 +83,65 @@ textarea {
 #success-main {
     margin-block: auto;
 }
+
+@media (min-width: 400px) {
+    form {
+        grid-template-columns: repeat(4, 1fr);
+        padding-inline: 0;
+    }
+    #block-fname {
+        grid-column: 2 / span 1;
+    }
+    #block-lname {
+        grid-column: 3 / span 1;
+    }
+
+    #warning-block {
+        grid-column: 2 / span 3;
+    }
+
+    #block-email {
+        grid-column: 2 / span 2;
+    }
+
+    #submit-block {
+        grid-row: 5;
+        grid-column: 3;
+    }
+
+    #block-message {
+        grid-column: 2 / span 2;
+        min-height: 1rem;
+        min-width: 100%;
+    }
+}
+
+@media (min-width: 1000px) {
+    form {
+        grid-template-columns: repeat(6, 1fr);
+        padding-inline: 0%;
+    }
+    #block-email {
+        grid-column: 3 / span 2;
+    }
+    #warning-block {
+        grid-column: 3 / span 2;
+    }
+    #block-fname {
+        grid-column: 3 / span 1;
+    }
+    #block-lname {
+        grid-column: 4 / span 1;
+    }
+    #submit-block {
+        grid-row: 5;
+        grid-column: 4;
+    }
+    #block-message {
+        grid-column: 3 / span 2;
+    }
+}
+
+
+
+
