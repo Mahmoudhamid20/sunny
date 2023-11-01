@@ -71,3 +71,7 @@ main {
 textarea {
     resize: none;
 }
+
+#success-main {
+    margin-block: auto;
+}

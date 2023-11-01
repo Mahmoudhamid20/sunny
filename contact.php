@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     ?>
-    <main>
+    <main id="success-main">
     <h2 class="centered">Thank you for contacting us! We will get back to you as soon as possible!</h2>
     </main>
     <?php
