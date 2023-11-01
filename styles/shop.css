@@ -8,14 +8,6 @@
     src: url("./fonts/nexabold.ttf");
 }
 
-.titleContainer {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
 .title {
     font-size: 60px;
     font-family: NexaBold;
@@ -39,14 +31,14 @@
     text-align: center;
 }
 
-.Pics {
+.pics {
     /* For the size of the Goods imgs*/
     width: 400px;
     height: 266.7px;
     transition: .5s ease;
 }
 
-.pics_container:hover .Pics {
+.pics_container:hover .pics {
     /*Change the Opacity to 30% when hovering on the img*/
     opacity: 0.3;
     cursor: pointer;
@@ -57,7 +49,7 @@
     opacity: 1;
 }
 
-.SpaceTaker {
+.spacetaker {
     /*A blank entity for taking space so that the layout of the last row looks same as above rows*/
     width: 400px;
     height: 266.7px;
