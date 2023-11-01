@@ -34,29 +34,19 @@ h2{
     margin-right: 60px;
 }
 
-.boxes{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(5, 1fr);
-    place-items: center;
-}
-
-.icons{
-    height: 60px;
-    padding: 10px;
-}
 /* dropdown size menu css */
 select{
 overflow-y: auto;
-width: 20dvw;
+width: auto;
 border:none;
 text-align: center;
-font-size: large;
+font-size: x-large;
 }
 option:hover{
     background-color: #4FB2A2;
     font-weight: bold;
 }
+
 /* style selection css */
 .style-select{
   display: flex;
@@ -65,16 +55,31 @@ option:hover{
 }
 input[type="radio"]{
   display: none;
+
+  &:checked+label{
+    border: 2px solid black;
+    font-weight: bold;
+  }
+}
+.style{
+  font-size: x-large;
 }
 .style:hover{
   background-color: #4FB2A2;
-  border: 2px solid black;
-}
-.style::selection{
-  border: 2px solid black;
-}
-input[type="radio"]::selection{
-  border: 2px solid black;
+  font-weight: bold;
+  
 }
 
 /* Sock colour selection  */
+.boxes{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    padding: 2dvh;
+}
+
+.icons{
+    height: 60px;
+    padding: 10px;
+}
