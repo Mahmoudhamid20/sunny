@@ -8,7 +8,17 @@
     src: url("./fonts/nexabold.ttf");
 }
 
+.titlecontainer {
+    /*For old-shop.html */
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .title {
+    /*For old-shop.html */
     font-size: 60px;
     font-family: NexaBold;
     color: white;
