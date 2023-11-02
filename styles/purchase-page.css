@@ -50,6 +50,7 @@ select {
 option:hover {
   background-color: #4FB2A2;
   font-weight: bold;
+  cursor: pointer;
 }
 
 /* style selection css */
@@ -98,3 +99,15 @@ input[type="radio"] {
   border: 2px solid black;
 
 }
+
+main {
+  padding-block: 10%;
+}
+.warning-text {
+  color: red;
+}
+
+label:hover, button:hover, select:hover{
+  cursor: pointer;
+} 
+

@@ -44,21 +44,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
     ini_set( 'display_errors', 0 );
-    $from = "no-reply@sunny.edupathag.com";
-    //$to = "artjoms.grisajevs.11@rpg.lv";
-    $to = $_POST["Email"];
-    $subject = "Message from Sunny";
-    $message = "We've recieved a new message from Sunny website!\n".$_POST["Name"]." ".$_POST["Surname"]." with email: ".$_POST["Email"]." wrote:\n\t".$_POST["Message"]."\nThis message was sent automatically, please do not reply!\nsunny.edupathag.com";
-    $headers = "From:" . $from;
-    ?>
-    <main id="success-main">
-        <?php
-        if (mail ($to,$subject,$message,$headers)) {
-            echo "<h2 class='centered'>Thank you for contacting us! We will get back to you as soon as possible!</h2>";
-        } else {
-            echo "<h2 class='centered'>We are sorry, but an error occurred while sending your message! Try again later.</h2>";
-        }
+        $from = "no-reply@sunny.edupathag.com";
+        //$to = "artjoms.grisajevs.11@rpg.lv";
+        $to = $_POST["Email"];
+        $subject = "Message from Sunny";
+        $message = "We've recieved a new message from Sunny website!\n".$_POST["Name"]." ".$_POST["Surname"]." with email: ".$_POST["Email"]." wrote:\n\t".$_POST["Message"]."\nThis message was sent automatically, please do not reply!\nsunny.edupathag.com";
+        $headers = "From:" . $from;
         ?>
+        <main id="success-main">
+            <?php
+            if (mail ($to,$subject,$message,$headers)) {
+                echo "<h2 class='centered'>Thank you for contacting us! We will get back to you as soon as possible!</h2>";
+            } else {
+                echo "<h2 class='centered'>We are sorry, but an error occurred while sending your message! Try again later.</h2>";
+            }
+            ?>
 
     </main>
     <?php
