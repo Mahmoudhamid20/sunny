@@ -24,13 +24,14 @@
     color: white;
     text-align: center;
     background-color: #4FB2A2;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .container {
     /*Container for rows*/
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
