@@ -81,7 +81,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <label for="Name">First Name</label>
                 <input type="text" name="Name" id="Name" class="field" <?php echo "value='".(isset($values["Name"]) ? $values["Name"] : "")."'";?>>
             </div>
-            <div class="input-block">
+            <div class="input-block" id="block-lname">
                 <label for="Surname">Last Name</label>
                 <input type="text" name="Surname" id="Surname" class="field" <?php echo "value='".(isset($values["Surname"]) ? $values["Surname"] : "")."'";?>>
             </div>
