@@ -2,6 +2,7 @@
     text-align: center;
     margin-block: auto;
     padding: 3%;
+    font-size: large ;
 }
 
 .tiles{
@@ -13,9 +14,10 @@
 
 .picture{
 border: 5px solid black;
-max-width: 75%;
-max-height: 75%;
+max-width: 85%;
+max-height: 85%;
 transition: .5s ease;
+
 }
 
 .pics_container {
@@ -40,4 +42,11 @@ transition: .5s ease;
 .pics_container:hover .hover {
     /*Make the Opacity of the text layer appear when hovering on the img*/
     opacity: 1;
+}
+
+.imageText{
+    margin: 80px;
+    position: absolute;
+    text-align: left;
+    font-size: large;
 }
