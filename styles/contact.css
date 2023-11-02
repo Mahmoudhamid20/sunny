@@ -136,12 +136,12 @@ textarea {
     #submit-block {
         grid-row: 5;
         grid-column: 4;
-    }
+]    }
     #block-message {
         grid-column: 3 / span 2;
     }
-}
 
+}
 
 
 
