@@ -98,3 +98,7 @@ input[type="radio"] {
   border: 2px solid black;
 
 }
+
+main {
+  padding-block: 10%;
+}
