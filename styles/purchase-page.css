@@ -1,92 +1,99 @@
-*{
-    font-family: NexaLight;
-}
-@font-face {
-    font-family: NexaBold;
-    src: url("../styles/fonts/nexabold.ttf");
+* {
+  font-family: NexaLight;
 }
 
 @font-face {
-    font-family: NexaLight;
-    src: url("../styles/fonts/nexalight.ttf");
+  font-family: NexaBold;
+  src: url("../styles/fonts/nexabold.ttf");
 }
-h1{
-    font-family: NexaBold;
+
+@font-face {
+  font-family: NexaLight;
+  src: url("../styles/fonts/nexalight.ttf");
 }
-h2{
-    font-family: NexaLight;
+
+h1 {
+  font-family: NexaBold;
+}
+
+h2 {
+  font-family: NexaLight;
 }
 
 
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.purchasePage{
-    display: flex;
-    flex-direction: column;
+.purchasePage {
+  display: flex;
+  flex-direction: column;
 }
 
-.purchaseImage{
-    display:flex;
-    height: 50dvh;
-    margin-right: 60px;
+.purchaseImage {
+  display: flex;
+  height: 50dvh;
+  margin-right: 60px;
 }
 
 /* dropdown size menu css */
-select{
-overflow-y: auto;
-width: auto;
-border:none;
-text-align: center;
-font-size: x-large;
+select {
+  overflow-y: auto;
+  width: auto;
+  border: none;
+  text-align: center;
+  font-size: x-large;
 }
-option:hover{
-    background-color: #4FB2A2;
-    font-weight: bold;
+
+option:hover {
+  background-color: #4FB2A2;
+  font-weight: bold;
 }
 
 /* style selection css */
-.style-select{
+.style-select {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-input[type="radio"]{
+
+input[type="radio"] {
   display: none;
 
-  &:checked+label{
+  &:checked+label {
     border: 2px solid black;
     font-weight: bold;
   }
 }
-.style{
+
+.style {
   font-size: x-large;
 }
-.style:hover{
+
+.style:hover {
   background-color: #4FB2A2;
   font-weight: bold;
 }
 
 /* Sock colour selection  */
-.boxes{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(5, 1fr);
-    place-items: center;
-    padding: 2dvh;
-    
+.boxes {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
+  padding: 2dvh;
+
 }
 
-.icons{
-    height: 60px;
-    padding: 10px;
+.icons {
+  height: 60px;
+  padding: 10px;
 }
 
 /* submit button */
-.purchaseButton{
+.purchaseButton {
   font-size: x-large;
   border: 2px solid black;
 
