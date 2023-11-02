@@ -25,6 +25,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .purchasePage {
@@ -35,7 +36,7 @@ h2 {
 .purchaseImage {
   display: flex;
   height: 50dvh;
-  margin-right: 60px;
+  margin: 60px;
 }
 
 /* dropdown size menu css */
