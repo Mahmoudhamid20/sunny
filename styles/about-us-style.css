@@ -1,4 +1,52 @@
 .main-content {
     text-align: center;
     margin-block: auto;
+    padding: 3%;
+    font-size: large ;
+}
+
+.tiles{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 5%;
+}
+
+.picture{
+border: 5px solid black;
+max-width: 85%;
+max-height: 85%;
+transition: .5s ease;
+
+}
+
+.pics_container {
+    /*Container for the Goods img, text, also the floating text*/
+    display: inline-block;
+    text-align: center;
+}
+
+.hover {
+    /*Creates a hover text, but will not show on load, unless user hovers on it*/
+    text-align: center;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.pics_container:hover .picture {
+    /*Change the Opacity to 30% when hovering on the img*/
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.pics_container:hover .hover {
+    /*Make the Opacity of the text layer appear when hovering on the img*/
+    opacity: 1;
+}
+
+.imageText{
+    margin: 80px;
+    position: absolute;
+    text-align: left;
+    font-size: large;
 }
