@@ -9,68 +9,59 @@
 }
 
 .titlecontainer {
-    /*For old-shop.html */
     display: flex;
     justify-content: center;
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 50px 20px; /* Adjusted for padding on smaller screens */
 }
 
 .title {
-    /*For old-shop.html */
-    font-size: 60px;
-    font-family: NexaBold;
-    color: white;
+    font-size: 4vw; 
+    padding: 10px 5%; 
+    color: black;
     text-align: center;
-    background-color: #4FB2A2;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 .container {
-    /*Container for rows*/
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .pics_container {
-    /*Container for the Goods img, text, also the floating text*/
-    display: inline-block;
-    margin: 100px;
-    text-align: center;
+    margin: 10% 5%; 
 }
 
 .pics {
-    /* For the size of the Goods imgs*/
-    width: 400px;
-    height: 266.7px;
+    width: 90%;
+    height: auto; 
+    max-width: 400px; 
     transition: .5s ease;
+    margin: auto;
 }
 
 .pics_container:hover .pics {
-    /*Change the Opacity to 30% when hovering on the img*/
     opacity: 0.3;
     cursor: pointer;
 }
 
 .pics_container:hover .hover {
-    /*Make the Opacity of the text layer appear when hovering on the img*/
     opacity: 1;
 }
 
 .spacetaker {
-    /*A blank entity for taking space so that the layout of the last row looks same as above rows*/
     width: 400px;
     height: 266.7px;
     background-color: white;
 }
 
 .hover {
-    /*Creates a hover text, but will not show on load, unless user hovers on it*/
-    text-align: center;
     transition: .5s ease;
     opacity: 0;
+    position: absolute;
+    width: 90%;
+    max-width: 400px;
 }
 
 h1 {
@@ -85,4 +76,33 @@ h2 {
     position: absolute;
     text-align: center;
     margin: 100px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 6vw; /* Larger font size on smaller screens */
+    }
+    
+    .pics_container {
+        width: 90%; /* Make containers take full width on smaller screens */
+        margin: 20px auto; /* Smaller margins and centered */
+    }
+
+    .hover h2 {
+        font-size: 5vw; /* Larger font size on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .titlecontainer {
+        padding: 20px 10px; /* Less padding on very small screens */
+    }
+    
+    .title {
+        font-size: 8vw; /* Even larger font size on very small screens */
+    }
+    
+    .pics_container {
+        margin: 15px auto; /* Even smaller margins */
+    }
 }
