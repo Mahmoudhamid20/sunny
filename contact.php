@@ -51,8 +51,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     ini_set( 'display_errors', 0 );
         $from = "no-reply@sunny.edupathag.com";
-        //$to = "artjoms.grisajevs.11@rpg.lv";
-        $to = $_POST["Email"];
+        $to = "artjoms.grisajevs@student.nhlstenden.com"; //send email to any specific e-mail
+        //$to = $_POST["Email"]; Send email to address given
         $subject = "Message from Sunny";
         $message = "We've recieved a new message from Sunny website!\n".$_POST["Name"]." ".$_POST["Surname"]." with email: ".$_POST["Email"]." wrote:\n\t".$_POST["Message"]."\nThis message was sent automatically, please do not reply!\nsunny.edupathag.com";
         $headers = "From:" . $from;
