@@ -2,7 +2,7 @@
     text-align: center;
     margin-block: auto;
     padding: 3%;
-    font-size: large ;
+    font-size: 2vw;
 }
 
 .tiles{
@@ -14,8 +14,8 @@
 
 .picture{
 border: 5px solid black;
-max-width: 85%;
-max-height: 85%;
+width: 20vw;
+
 transition: .5s ease;
 
 }
@@ -24,6 +24,7 @@ transition: .5s ease;
     /*Container for the Goods img, text, also the floating text*/
     display: inline-block;
     text-align: center;
+    position: relative;
 }
 
 .hover {
@@ -45,8 +46,10 @@ transition: .5s ease;
 }
 
 .imageText{
-    margin: 80px;
     position: absolute;
     text-align: left;
-    font-size: large;
+    font-size: 1.5vw;
+    width: 100%;
+    padding-inline: 3vw;
+    padding-top: 3vw;
 }
