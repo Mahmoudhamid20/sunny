@@ -81,7 +81,7 @@ textarea {
     margin-block: auto;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 700px) {
     form {
         grid-template-columns: repeat(4, 1fr);
         padding-inline: 0;
