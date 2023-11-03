@@ -14,7 +14,7 @@
 
 .picture{
 border: 5px solid black;
-width: 30vw;
+width: 20vw;
 
 transition: .5s ease;
 
@@ -50,6 +50,6 @@ transition: .5s ease;
     text-align: left;
     font-size: 1.5vw;
     width: 100%;
-    padding-inline: 7vw;
+    padding-inline: 3vw;
     padding-top: 3vw;
 }
