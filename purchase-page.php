@@ -1,7 +1,5 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +9,6 @@
     <title>Purchase Page</title>
     <script src="scripts/jquery-3.7.1.min.js"></script>
 </head>
-
 <body>
     <header></header>
     <main>      
@@ -126,5 +123,4 @@
     <script src="scripts/index.js"></script>
     <script src="scripts/purchase.js"></script>
 </body>
-
 </html>
