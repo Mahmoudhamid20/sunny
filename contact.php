@@ -40,7 +40,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (count($errors) > 0) {
         $errorQuery = http_build_query(['errors' => $errors, 'values' => $_POST]);
-        header("Location: ./contact.php?$errorQuery");
+        
+        ?>
+        <script type="text/javascript"> 
+        window.location.href="<?php echo"./contact.php?$errorQuery";?>" 
+        </script> 
+        <?php
+        
         exit;
     }
     ini_set( 'display_errors', 0 );
