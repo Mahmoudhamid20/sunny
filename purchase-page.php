@@ -87,7 +87,7 @@
                 </form>
             </div>
             <?
-        } else {
+        } else if ($_SERVER["REQUEST_METHOD"] == "POST") 
             $errors = [];
             if (empty($_POST["size-drop"])) {
                 $errors[] = "The size must be specified!";
