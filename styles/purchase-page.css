@@ -14,10 +14,12 @@
 
 h1 {
   font-family: NexaBold;
+  font-size: 2.5vw;
 }
 
 h2 {
   font-family: NexaLight;
+  font-size: 2vw;
 }
 
 
@@ -34,8 +36,13 @@ h2 {
 
 .purchaseImage {
   display: flex;
-  height: 50dvh;
-  margin-right: 60px;
+  width: 30%;
+  margin-right: 5vw;
+}
+.purchaseImage img{
+  width: 100%;
+  object-fit: cover;
+
 }
 
 /* dropdown size menu css */
@@ -44,7 +51,7 @@ select {
   width: auto;
   border: none;
   text-align: center;
-  font-size: x-large;
+  font-size: 2vw;
 }
 
 option:hover {
@@ -70,7 +77,7 @@ input[type="radio"] {
 }
 
 .style {
-  font-size: x-large;
+  font-size: 2vw;
 }
 
 .style:hover {
@@ -84,18 +91,18 @@ input[type="radio"] {
   grid-template-rows: 1fr;
   grid-template-columns: repeat(5, 1fr);
   place-items: center;
-  padding: 2dvh;
 
 }
 
 .icons {
-  height: 60px;
-  padding: 10px;
+  max-height: 5vw;
+  min-height: 5vw;
+  
 }
 
 /* submit button */
 .purchaseButton {
-  font-size: x-large;
+  font-size: 2vw;
   border: 2px solid black;
 
 }
