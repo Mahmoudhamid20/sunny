@@ -22,11 +22,11 @@
 
             <div class="purchasePage">
                 <div class="sockTitle">
-                    <h1>Stripped sock in Blue</h1>
+                    <h1>Sunny socks</h1>
                 </div>
 
                 <div class="description">
-                    <h2>Our classic Stripped Socks in Blue!</h2>
+                    <h2>Ethically made in the Netherlands!</h2>
                 </div>
 
                 <div class="headings">
