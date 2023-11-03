@@ -53,9 +53,9 @@
 
                     <div class="style-select">
                         <input type="radio" name="style" id="stripped" value="stripped">
-                        <label for="stripped" class="style">Stripped socks</label>
+                        <label for="stripped" class="style">Striped socks</label>
                         <input type="radio" name="style" id="solid" value="solid">
-                        <label for="solid" class="style">Uni Colour socks</label>
+                        <label for="solid" class="style">Unicolor socks</label>
                     </div>
 
                     <div class="headings">
